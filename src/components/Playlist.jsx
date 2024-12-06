@@ -10,7 +10,7 @@ function Playlist() {
     const fetchPlaylists = async () => {
       try {
         const response = await axios.get(
-          `https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&key=${import.meta.env.VITE_YOUTUBE_API_KEY}`
+          `https://www.googleapis.com/youtube/v3/playlists?part=snippet&mine=true&key=${import.meta.env.API_KEY}`
         );
         setPlaylists(response.data.items);
       } catch (error) {
