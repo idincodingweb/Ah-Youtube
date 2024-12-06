@@ -15,7 +15,7 @@ function VideoDetail() {
     const fetchVideo = async () => {
       try {
         const response = await axios.get(
-          `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${id}&key=${import.meta.env.VITE_YOUTUBE_API_KEY}`
+          `https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails,statistics&id=${id}&key=${import.meta.env.API_KEY}`
         );
         setVideo(response.data.items[0]);
       } catch (error) {
@@ -26,7 +26,7 @@ function VideoDetail() {
     const fetchRecommendations = async () => {
       try {
         const response = await axios.get(
-          `https://www.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${id}&type=video&maxResults=10&key=${import.meta.env.VITE_YOUTUBE_API_KEY}`
+          `https://www.googleapis.com/youtube/v3/search?part=snippet&relatedToVideoId=${id}&type=video&maxResults=10&key=${import.meta.env.API_KEY}`
         );
         setRecommendations(response.data.items);
       } catch (error) {
