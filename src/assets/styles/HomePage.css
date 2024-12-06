@@ -1,0 +1,15 @@
+/* Home.css */
+.home {
+  padding: 20px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.video-link {
+  text-decoration: none;
+  color: inherit;
+}
+

@@ -1,0 +1,29 @@
+youtube-clone/
+├── public/
+│   ├── index.html
+├── src/
+│   ├── assets/
+│   │   ├── styles/
+│   │   │   ├── Navbar.css
+│   │   │   ├── BottomBar.css
+│   │   │   ├── Home.css
+│   │   │   ├── Shorts.css
+│   │   │   ├── Playlist.css
+│   │   │   ├── VideoDetail.css
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── BottomBar.jsx
+│   │   ├── Home.jsx
+│   │   ├── Shorts.jsx
+│   │   ├── Playlist.jsx
+│   │   ├── VideoDetail.jsx
+│   ├── pages/
+│   │   ├── HomePage.jsx
+│   │   ├── ShortsPage.jsx
+│   │   ├── PlaylistPage.jsx
+│   │   ├── VideoDetailPage.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+├── .env
+├── package.json
+├── vite.config.js

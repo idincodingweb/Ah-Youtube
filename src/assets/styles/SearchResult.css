@@ -1,0 +1,32 @@
+.search-result {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.result-card {
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.result-card img {
+  width: 100%;
+  height: auto;
+}
+
+.result-info {
+  padding: 10px;
+}
+
+.result-info h3 {
+  font-size: 1.2rem;
+  margin: 0;
+}
+
+.result-info p {
+  color: #555;
+  margin: 5px 0 0;
+}

@@ -1,0 +1,28 @@
+/* Shorts.css */
+.shorts {
+  padding: 20px;
+}
+
+.short-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.short-card {
+  transition: transform 0.3s;
+}
+
+.short-card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .shorts {
+    padding: 10px;
+  }
+
+  .short-thumbnail {
+    border-radius: 4px;
+  }
+}

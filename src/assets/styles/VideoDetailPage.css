@@ -1,0 +1,13 @@
+/* VideoDetailPage.css */
+.videoDetailPage {
+  padding: 20px;
+}
+
+.videoPlayer {
+  width: 100%;
+  height: 500px;
+}
+
+.description {
+  margin-top: 20px;
+}

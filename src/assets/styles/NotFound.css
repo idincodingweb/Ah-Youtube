@@ -1,0 +1,13 @@
+/* NotFound.css */
+.not-found-container {
+  text-align: center;
+  padding: 50px;
+}
+
+.not-found-container h3 {
+  margin-bottom: 20px;
+}
+
+.not-found-container p {
+  margin-bottom: 30px;
+}

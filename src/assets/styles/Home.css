@@ -1,0 +1,28 @@
+/* Home.css */
+.home {
+  padding: 20px;
+}
+
+.video-thumbnail {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.video-card {
+  transition: transform 0.3s;
+}
+
+.video-card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 600px) {
+  .home {
+    padding: 10px;
+  }
+
+  .video-thumbnail {
+    border-radius: 4px;
+  }
+}

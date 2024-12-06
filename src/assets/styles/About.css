@@ -1,0 +1,12 @@
+/* About.css */
+.about-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.profile-avatar {
+  padding: 50px;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto 20px;
+}

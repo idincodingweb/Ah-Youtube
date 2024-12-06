@@ -1,0 +1,14 @@
+/* SearchResultsPage.css */
+.searchResultsPage {
+  padding: 20px;
+}
+
+.result-thumbnail {
+  width: 100%;
+  height: auto;
+}
+
+.video-link {
+  text-decoration: none;
+  color: inherit;
+}
